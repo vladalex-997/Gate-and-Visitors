@@ -1,0 +1,64 @@
+﻿table {
+    max-width: none;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+    .table th, .table td {
+        padding: 10px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: 2px solid #dddddd;
+        /* white-space: nowrap;*/
+    }
+
+
+
+    .table th {
+        width: auto;
+        height: auto;
+        font-weight: bold;
+        background-color: darkblue;
+        color: #ffffff;
+    }
+
+    .table thead th {
+        vertical-align: bottom;
+    }
+
+.FormatRadioButtonList label {
+    margin-right: 15px;
+}
+
+.Space label {
+    margin-left: 20px;
+}
+
+.myradioButton {
+    margin-right: 2px;
+    margin-left: 2px;
+    margin: 2px 2px 2px 2px;
+    padding: 1px 1px 1px 1px;
+    padding-left: 1px;
+    text-indent: 1px;
+    text-align: left;
+    width: 10px;
+}
+
+.rbl input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+label span {
+    display: inline-block;
+    margin-left: 10px;
+}

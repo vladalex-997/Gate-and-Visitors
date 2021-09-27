@@ -1,0 +1,3 @@
+New-Service -Name "AplicatieHSE" -C:\MailService\MailService\bin\Debug C:\MailService\MailService\bin\Debug\MailService.exe
+
+Remove-Service -Name "AplicatieHSE"
